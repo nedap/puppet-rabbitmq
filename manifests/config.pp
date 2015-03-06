@@ -13,6 +13,6 @@ class rabbitmq::config {
   $executable     = "${boxen::config::home}/homebrew/sbin/rabbitmq-server"
   $rabbitmqctl    = "${boxen::config::home}/homebrew/sbin/rabbitmqctl"
   $logdir         = "${boxen::config::logdir}/rabbitmq"
-  $port           = 15672
-  $mgmt_port      = 25672
+  $port           = 55672
+  $mgmt_port      = 15672
 }
